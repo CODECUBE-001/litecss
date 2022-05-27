@@ -1,0 +1,29 @@
+/* navbar begins */
+%flex_layout{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.navbar{
+    @extend %flex_layout;
+    padding: $base_padding $base_padding *2;
+    box-shadow: $base_box_shadow;
+
+.site_title{
+    font-size: $font_size_lg;
+    }
+    .container{
+        @extend %flex_layout;
+    }
+}
+@each $key, $val in $colors{
+    .navbar_#{$key}{
+        @extend .navbar;
+        background-color: $val;
+    }
+}

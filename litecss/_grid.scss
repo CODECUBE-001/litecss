@@ -1,0 +1,94 @@
+@use 'sass:math';
+
+$grid_columns: 12;
+$grid_gaps:(
+    "0":0,
+    "1":10px,
+    "2":20px,
+    "3":30px,
+
+);
+
+$layout_values: flex_start, flex_end, center, space_between, space_around;
+
+/* Base layout classes */
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.row{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+/* Grid gaps */
+@each $key, $val in $grid_gaps{
+    .gap_#{$key} > * {
+        padding: $val;
+    }
+    .gap_#{$key}{
+        margin-left: -$val;
+        margin-right: -$val;
+    }
+}
+
+/* Justify content classes */
+@each $val in $layout_values{
+     .justify_#{$val}{
+         justify-content: $val;
+     }
+}
+/* col classes */
+@include xs{
+    @for $i from 1 through $grid_columns {
+        .col_#{$i}_xs {
+            box-sizing:border-box;
+            flex-grow: 0;
+            width:math.div($i * 100%, $grid_columns);
+        }
+    }
+}
+
+@include sm{
+    @for $i from 1 through $grid_columns {
+        .col_#{$i}_sm {
+            box-sizing:border-box;
+            flex-grow: 0;
+            width:math.div($i * 100%, $grid_columns);
+        }
+    }
+}
+
+@include md{
+    @for $i from 1 through $grid_columns {
+        .col_#{$i}_md {
+            box-sizing:border-box;
+            flex-grow: 0;
+            width:math.div($i * 100%, $grid_columns);
+        }
+    }
+}
+
+@include lg{
+    @for $i from 1 through $grid_columns {
+        .col_#{$i}_lg {
+            box-sizing:border-box;
+            flex-grow: 0;
+            width:math.div($i * 100%, $grid_columns);
+        }
+    }
+}
+
+@include xl{
+    @for $i from 1 through $grid_columns {
+        .col_#{$i}_xl {
+            box-sizing:border-box;
+            flex-grow: 0;
+            width:math.div($i * 100%, $grid_columns);
+        }
+    }
+}

@@ -1,0 +1,63 @@
+
+/* theme colors */
+
+$primary: #09e8eb ;
+  
+$secondary: rgb(5, 230, 43);
+
+$turquoise: #36d0cc;
+
+$eastern_blue: #1ea79f;
+
+$bright_turquoise: #12e7d1;
+
+$bright_turquoise: #14d3e5;
+
+$java: #17c1bb;
+
+$error: red;
+
+$info : yellow;
+
+/* Color pallette */
+$colors: (
+    "primary":$primary,
+    "secondary":$secondary,
+    "warning":yellow,
+    "success":rgb(1, 231, 1),
+    "error":$error,
+    "info":$info,
+    "turquoise":$turquoise,
+    "blue":blue,
+    "green":green,
+    "orange":orange,
+    "white":white,
+    "red":red,
+    "violet":violet,
+    "purple":purple,
+    "black":black,
+    "indigo":indigo,
+    "cyan":cyan,
+    "grey":grey,
+    
+);
+
+
+/* Spacing */
+$base_padding: 0.75rem;
+$base_margin: 0.75rem;
+
+/* Borders */
+$base_border_thickness: 1px;
+$base_border_radius: 20px;
+
+/* Box shadow */
+$base_box_shadow: 1px 3px 5px rgba(0,0,0,0.1);
+
+/* font sizes */
+$base_font_size:1rem;
+$font_size_sm:$base_font_size * 0.75;
+$font_size_lg:$base_font_size * 1.5;
+$font_size_xl:$base_font_size * 2  ;
+$font_size_xxl:$base_font_size * 3 ;
+
