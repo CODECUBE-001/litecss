@@ -1,6 +1,6 @@
 {
   "name": "@olamidipupo-favour/litecss",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A css framework by liteweb engine",
   "main": "index.js",
   "scripts": {
