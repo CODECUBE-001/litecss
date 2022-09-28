@@ -1,7 +1,7 @@
 @use 'sass:math';
 
-$grid_columns: 12;
-$grid_gaps:(
+$grid-columns: 12;
+$grid-gaps:(
     "0":0,
     "1":10px,
     "2":20px,
@@ -9,7 +9,7 @@ $grid_gaps:(
 
 );
 
-$layout_values: flex_start, flex_end, center, space_between, space_around;
+$layout-values: flex-start, flex-end, center, space-between, space-around;
 
 /* Base layout classes */
 .container{
@@ -26,69 +26,69 @@ $layout_values: flex_start, flex_end, center, space_between, space_around;
 }
 
 /* Grid gaps */
-@each $key, $val in $grid_gaps{
-    .gap_#{$key} > * {
+@each $key, $val in $grid-gaps{
+    .gap-#{$key} > * {
         padding: $val;
     }
-    .gap_#{$key}{
+    .gap-#{$key}{
         margin-left: -$val;
         margin-right: -$val;
     }
 }
 
 /* Justify content classes */
-@each $val in $layout_values{
-     .justify_#{$val}{
+@each $val in $layout-values{
+     .justify-#{$val}{
          justify-content: $val;
      }
 }
 /* col classes */
 @include xs{
-    @for $i from 1 through $grid_columns {
-        .col_#{$i}_xs {
+    @for $i from 1 through $grid-columns {
+        .col-#{$i}-xs {
             box-sizing:border-box;
             flex-grow: 0;
-            width:math.div($i * 100%, $grid_columns);
+            width:math.div($i * 100%, $grid-columns);
         }
     }
 }
 
 @include sm{
-    @for $i from 1 through $grid_columns {
-        .col_#{$i}_sm {
+    @for $i from 1 through $grid-columns {
+        .col-#{$i}-sm {
             box-sizing:border-box;
             flex-grow: 0;
-            width:math.div($i * 100%, $grid_columns);
+            width:math.div($i * 100%, $grid-columns);
         }
     }
 }
 
 @include md{
-    @for $i from 1 through $grid_columns {
-        .col_#{$i}_md {
+    @for $i from 1 through $grid-columns {
+        .col-#{$i}-md {
             box-sizing:border-box;
             flex-grow: 0;
-            width:math.div($i * 100%, $grid_columns);
+            width:math.div($i * 100%, $grid-columns);
         }
     }
 }
 
 @include lg{
-    @for $i from 1 through $grid_columns {
-        .col_#{$i}_lg {
+    @for $i from 1 through $grid-columns {
+        .col-#{$i}-lg {
             box-sizing:border-box;
             flex-grow: 0;
-            width:math.div($i * 100%, $grid_columns);
+            width:math.div($i * 100%, $grid-columns);
         }
     }
 }
 
 @include xl{
-    @for $i from 1 through $grid_columns {
-        .col_#{$i}_xl {
+    @for $i from 1 through $grid-columns {
+        .col-#{$i}-xl {
             box-sizing:border-box;
             flex-grow: 0;
-            width:math.div($i * 100%, $grid_columns);
+            width:math.div($i * 100%, $grid-columns);
         }
     }
 }

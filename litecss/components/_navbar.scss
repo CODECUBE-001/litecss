@@ -1,5 +1,5 @@
 /* navbar begins */
-%flex_layout{
+%flex-layout{
     width: 100%;
     display: flex;
     align-items: center;
@@ -10,19 +10,19 @@
 }
 
 .navbar{
-    @extend %flex_layout;
-    padding: $base_padding $base_padding *2;
-    box-shadow: $base_box_shadow;
+    @extend %flex-layout;
+    padding: $base-padding $base-padding *2;
+    box-shadow: $base-box-shadow;
 
-.site_title{
-    font-size: $font_size_lg;
+.site-title{
+    font-size: $font-size-lg;
     }
     .container{
-        @extend %flex_layout;
+        @extend %flex-layout;
     }
 }
 @each $key, $val in $colors{
-    .navbar_#{$key}{
+    .navbar-#{$key}{
         @extend .navbar;
         background-color: $val;
     }

@@ -1,42 +1,42 @@
 @each $key, $val in $colors{
-    .text_#{$key}{
+    .text-#{$key}{
         color:$val;
     }
-    .text_hover_#{$key}{
+    .text-hover-#{$key}{
         &:hover{
             color: $val;
         }
     }
-    .bg_#{$key}{
+    .bg-#{$key}{
         background-color: $val;
     }
     @if($val != black and $val != white){
     /* light variations of colors */
     @for $i from 0 through 9{
-        .text_#{$key}_light_#{$i}{
+        .text-#{$key}-light-#{$i}{
             color: mix(white, $val, $i * 10)
         }
         
-        .text_hover_#{$key}_light_#{$i}{
+        .text-hover-#{$key}-light-#{$i}{
             &:hover{
                 color: mix(white, $val, $i * 10)
             }
         }
-        .bg_#{$key}_light_#{$i}{
+        .bg-#{$key}-light-#{$i}{
             background-color: mix(white, $val, $i * 10)
         }
     }
      /* dark variations of colors */
      @for $i from 0 through 9{
-        .text_#{$key}_dark_#{$i}{
+        .text-#{$key}-dark-#{$i}{
             color: mix(black, $val, $i * 10)
         }
-        .text_hover_#{$key}_dark_#{$i}{
+        .text-hover-#{$key}-dark-#{$i}{
             &:hover{
                 color: mix(black, $val, $i * 10)
             }
         }
-        .bg_#{$key}_dark_#{$i}{
+        .bg-#{$key}-dark-#{$i}{
             background-color: mix(black, $val, $i * 10)
         }
     }
