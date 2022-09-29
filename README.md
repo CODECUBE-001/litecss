@@ -1,7 +1,6 @@
 # LITECSS
 
-LITECSS is a component based CSS/SCSS framework for developers.
-
+Lite CSS is an open source CSS framework, utility-first library with simple classes like pb flex btn-primary. With a whole lot of prebuilt component and code snippets to get your website running in few minutes. 
 ## Installation
 
 Use the node package manager [npm](https://nodejs.com)
