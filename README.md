@@ -1,3 +1,5 @@
+![Logo](https://lite-web.netlify.app/logo.png)
+
 # LITECSS
 
 Lite CSS is an open source CSS framework, utility-first library with simple classes like pb flex btn-primary. With a whole lot of prebuilt component and code snippets to get your website running in few minutes. 
@@ -29,6 +31,18 @@ foobar.singularize('phenomena')
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
+
+
+## Roadmap
+At The End of Hackertoberfest, we hope to have 100 more snippets (HTML Sections)
+
+- 100 new sections
+
+- 20 new components
+
+- Launch by Oct 29
+
+
 
 ## License
 [MIT](https://github.com/CODECUBE-001/litecss/blob/b9bc73f9c7c7ef74787d05e5d7b7ab8bf4ef855e/LICENSE)
