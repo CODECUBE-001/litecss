@@ -5,17 +5,22 @@
     box-shadow: $base-box-shadow;
     display: block;
     border-radius: math.div($base-border-radius, 4) ;
-
+    width: $base-font-size * 15;
     .card-title{
-        font-size: $font-size-lg;
-        padding-bottom: $base-padding;
+        font-size: 1rem;
+        padding-bottom: $base-padding * 0.6;
         font-weight: bold;
     }
-    .card-body{
-        font-size: $base-font-size;
+    .card-text{
+        font-size: 13px;
+        font-weight: 400;
         a{
             text-decoration: underline;
         }
+    }
+    .card-img{
+        width: 100%;
+        padding-bottom: $base-padding;
     }
     
 }

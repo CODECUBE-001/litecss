@@ -1,6 +1,6 @@
 @mixin btn($bg-color:#e2e2e2){
-        border-radius: $base-border-radius;
-        padding: $base-padding;
+        border-radius: 5px;
+        padding: 0.5rem;
         border: 0;
         display: inline-block;
         cursor: pointer;

@@ -110,6 +110,17 @@ $utilities:(
       "5": $base-margin * 8
     ),
   ),
+  "line-height": (
+    "prefix": "lh",
+    "values": (
+      "0": 0,
+      "1": $line-height,
+      "2": $line-height * 2,
+      "3": $line-height * 4,
+      "4": $line-height * 6,
+      "5": $line-height * 8
+    ),
+  ),
   "opacity": (
     "prefix": "o",
     "values": (
@@ -155,7 +166,8 @@ $utilities:(
       "xl": $font-size-xl,
       "xxl": $font-size-xxl
     )
-  )
+  ),
+  
 );
 
 
