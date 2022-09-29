@@ -1,19 +1,16 @@
-![Logo](https://lite-web.netlify.app/logo.png)
+<div align="center"><img height="100px" width="100px" src="https://lite-web.netlify.app/logo.png"><br><h1>Lite.css</h1><h5>Lite CSS is an open source CSS framework, utility-first library with simple classes like pb flex btn-primary. With a whole lot of prebuilt component and code snippets to get your website running in few minutes</h5></div>
 
-# LITECSS
-
-Lite CSS is an open source CSS framework, utility-first library with simple classes like pb flex btn-primary. With a whole lot of prebuilt component and code snippets to get your website running in few minutes. 
-## Installation
-
-Use the node package manager [npm](https://nodejs.com)
+. 
+## Installation 🚀
+## 💝 [**NPM**](https://npmjs.org)
 ```bash
 npm install @olamidipupo-favour/litecss
 ```
-Or with cdn 
+## ⚡ CDN 
 ``` html
 <style href="https://cdn.jsdelivr.net/gh/CODECUBE-001/litecss@main/litecss/css/index.css?token=GHSAT0AAAAAABZJ6VNI66VXC5QMTMLPYQP4YZVFWBQ"><style/>
 ```
-## Usage
+## ✨ Usage
 
 ```html
 <!--Create Card with component-->
