@@ -44,7 +44,7 @@ Or with cdn
 <button type="button" class="btn btn-info">Info</button>
 <button type="button" class="btn btn-light">Light</button>
 <button type="button" class="btn btn-dark">Dark</button>
-
+```
 
 ## Previews
 Check the output on our [codepen](https://codepen.io/dev-raphael/pen/BaxYXxy)
