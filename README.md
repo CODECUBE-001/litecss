@@ -32,4 +32,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://github.com/CODECUBE-001/litecss/blob/b9bc73f9c7c7ef74787d05e5d7b7ab8bf4ef855e/LICENSE)
