@@ -11,6 +11,7 @@ npm install @olamidipupo-favour/litecss
 Or with cdn 
 ``` html
 <style href="https://cdn.jsdelivr.net/gh/CODECUBE-001/litecss@main/litecss/css/index.css?token=GHSAT0AAAAAABZJ6VNI66VXC5QMTMLPYQP4YZVFWBQ"><style/>
+```
 ## Usage
 
 ```html
