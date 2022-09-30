@@ -1,5 +1,38 @@
-<div align="center"><img height="100px" width="100px" src="https://lite-web.netlify.app/logo.png"><br><h1>Lite.css</h1><h5>Lite CSS is an open source CSS framework, utility-first library with simple classes like pb flex btn-primary. With a whole lot of prebuilt component and code snippets to get your website running in few minutes</h5></div>
+<div align="center"><img height="100px" width="200px" src="https://lite-web.netlify.app/logo.png"><br><h1>Lite.css</h1><h5>Lite CSS is an open source CSS framework, utility-first library with simple classes like pb flex btn-primary. With a whole lot of prebuilt component and code snippets to get your website running in few minutes</h5></div>
 
+<p align="center">
+
+  <a aria-label="npm package" href="https://www.npmjs.com/package/@olamidipupo-favour/litecss">
+
+    <img alt="" src="https://img.shields.io/npm/v/@olamidipupo-favour/liitecss.svg">
+
+  </a>
+
+  <a aria-label="build status" href="https://github.com/CODECUBE-001/litecss/actions/workflows/ci.yml">
+
+    <img alt="" src="https://github.com/CODECUBE-001/litecss/actions/workflows/ci.yml/badge.svg">
+
+  </a>
+
+  <a aria-label="contributors graph" href="https://github.com/CODECUBE-001/litecss/graphs/contributors">
+
+    <img alt="" src="https://img.shields.io/github/contributors/CODECUBE-001/litecss.svg">
+
+  </a>
+
+  <a aria-label="last commit" href="https://github.com/CODECUBE-001/litecss/vommits/main">
+
+    <img alt="" src="https://img.shields.io/github/last-commit/CODECUBE-001/litecss.svg">
+
+  </a>
+
+  <a aria-label="license" href="https://github.com/CODECUBE-001/litecss/blob/main/LICENSE">
+
+    <img src="https://img.shields.io/github/license/CODECUBE-001/litecss.svg" alt="">
+
+  </a>
+
+</p>
 . 
 ## Installation 🚀
 ## 💝 [**NPM**](https://npmjs.org)
