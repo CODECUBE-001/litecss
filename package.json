@@ -1,16 +1,17 @@
 {
-  "name": "@olamidipupo-favour/litecss",
-  "version": "1.0.2",
-  "description": "A css framework by liteweb engine",
-  "main": "index.js",
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "author": "Liteweb Engine",
-  "license": "ISC",
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-sass": "^5.1.0",
-    "sass": "^1.52.1"
+    "sass": "^1.55.0",
+    "vite": "^3.1.0"
   }
 }
