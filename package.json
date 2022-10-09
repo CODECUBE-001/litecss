@@ -1,6 +1,7 @@
 {
   "name": "vite-project",
   "private": true,
+  "entry":"main.js",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

@@ -1,4 +1,5 @@
 @use 'sass:math';
+@use '../helpers/mediaquery' as *;
 
 $grid-columns: 12;
 $grid-gaps:(

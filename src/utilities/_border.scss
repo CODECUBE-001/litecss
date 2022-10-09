@@ -1,0 +1,33 @@
+@use 'sass:math';
+@use '../core/variables' as *;
+$border:(
+  "border-radius": (
+    "prefix": "br",
+    "values": (
+      "default": $base-border-radius,
+      "none": 0,
+      "xs": math.div($base-border-radius, 4),
+      "sm": math.div($base-border-radius, 2),
+      "lg": $base-border-radius * 2,
+      "full": 50%,
+    )
+  ),
+);
+
+@each $property, $map in $border{
+    $prefix: map-get($map, "prefix");
+    $values: map-get($map, "values");
+
+    @each $k, $v in $values {
+        @if($k == "default"){
+            .#{$prefix}{
+                #{$property}: $v;
+            }
+        }
+            @else{
+                .#{$prefix}-#{$k}{
+                    #{$property}: $v;
+                }
+            }
+        }
+    }

@@ -1,4 +1,6 @@
 @use 'sass:math';
+@use '../core/variables' as *;
+
 .card{
     padding: $base-padding;
     border: $base-border-thickness solid #ddd;

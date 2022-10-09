@@ -1,0 +1,33 @@
+@use '../core/variables' as *;
+
+$font:(
+     "font-size": (
+    "prefix": "font",
+    "values": (
+      "sm": $font-size-sm,
+      "md": $base-font-size,
+      "lg": $font-size-lg,
+      "xl": $font-size-xl,
+      "xxl": $font-size-xxl
+    )
+  )
+);
+
+@each $property, $map in $font{
+    $prefix: map-get($map, "prefix");
+    $values: map-get($map, "values");
+
+    @each $k, $v in $values {
+        @if($k == "default"){
+            .#{$prefix}{
+                #{$property}: $v;
+            }
+        }
+            @else{
+                .#{$prefix}-#{$k}{
+                    #{$property}: $v;
+                }
+            }
+        }
+    }
+

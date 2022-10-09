@@ -1,24 +1,4 @@
-/* Variables and functions */
-@import 'functions';
-@import 'variables';
-/* Base and layouts */
-@import 'base';
-@import 'mediaquery';
-@import 'grid';
-/* Colors */
-@import 'colors';
-
-/* Components (Button, card, nav, footer) */
-/* Card */
-@import 'components/card';
-/* Button */
-@import 'components/button';
-/* Navbar */
-@import 'components/navbar';
-
-/* Utilities (opacity, padding)  */
-@import 'utilities';
-
-.shadow{
-    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
-}
+@import "./core";
+@import "./helpers";
+@import "./utilities";
+@import "./components";

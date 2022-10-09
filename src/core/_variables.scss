@@ -11,13 +11,21 @@ $eastern-blue: #1ea79f;
 
 $bright-turquoise: #12e7d1;
 
-$bright-turquoise: #14d3e5;
-
 $java: #17c1bb;
 
 $error: red;
 
 $info : yellow;
+
+
+
+$breakpoints:(
+    "xs":0,
+    "sm":480px,
+    "md":720px,
+    "lg":960px,
+    "xl":1200px,
+);
 
 /* Color pallette */
 $colors: (
