@@ -12,6 +12,13 @@ $border:(
       "full": 50%,
     )
   ),
+  "border-style": (
+    "prefix": "border-style",
+    "values": (
+      "none": none,
+      "solid": solid,
+    )
+  ),
 );
 
 @each $property, $map in $border{

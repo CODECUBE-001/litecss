@@ -1,0 +1,14 @@
+
+$align:(
+    "left":left,
+    "right":right,
+    "center":center,
+    "justify": justify
+);
+
+@each $prop, $value in $align {
+    // @debug $prop, $value;
+    .text-#{$prop}{
+        text-align:$value
+    }
+}
