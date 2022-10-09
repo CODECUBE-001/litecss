@@ -13,6 +13,28 @@ $spacing:(
             "5": $base-padding * 8,
         ),
     ),
+    "y":(
+        "prefix":"py",
+        "values":(
+            "0":0,
+            "1": $base-padding,
+            "2": $base-padding * 2,
+            "3": $base-padding * 4,
+            "4": $base-padding * 6,
+            "5": $base-padding * 8,
+        ),
+    ),
+    "x":(
+        "prefix":"px",
+        "values":(
+            "0":0,
+            "1": $base-padding,
+            "2": $base-padding * 2,
+            "3": $base-padding * 4,
+            "4": $base-padding * 6,
+            "5": $base-padding * 8,
+        ),
+    ),
     "padding-left":(
         "prefix":pl,
         "values":(
@@ -134,6 +156,27 @@ $spacing:(
     $values: map-get($map, "values");
 
     @each $k, $v in $values {
+      @if ($property == "y"){
+         .py-#{$k}{
+               padding-top: $v ;
+               padding-bottom: $v ;
+            }
+         .my-#{$k}{
+               margin-top:$v;
+               margin-bottom:$v;
+            }
+      }
+      @if ($property == "x"){
+         .px-#{$k}{
+               padding-right:$v;
+               padding-left:$v;
+            }
+         .mx-#{$k}{
+               margin-right:$v;
+               margin-left:$v;
+            }
+      }
+
         @if($k == "default"){
             .#{$prefix}{
                 #{$property}: $v;
