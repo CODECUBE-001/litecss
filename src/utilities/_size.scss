@@ -26,8 +26,14 @@ $size:(
     .w-#{$i}{
         width:$base-size * $i;
     }
+    .max-w-#{$i}{
+        max-width:$base-size * $i;
+    }
     .h-#{$i}{
         height:$base-size * $i;
+    }
+     .max-h-#{$i}{
+        max-height:$base-size * $i;
     }
 }
 
@@ -35,7 +41,13 @@ $size:(
 .w-screen{
     width:100vh
 }
+.max-w-screen{
+    max-width:100vh
+}
 
 .h-screen{
     height:100vh
+}
+.max-h-screen{
+    max-height:100vh
 }
