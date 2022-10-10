@@ -1,0 +1,41 @@
+@use "sass:math";
+
+$base-size:0.70rem;
+
+$size:(
+      "default": $base-size,
+      "0": 0,
+      "xs": math.div($base-size, 4),
+      "sm": math.div($base-size, 2),
+      "lg": $base-size * 4,
+      "full": 100%,
+);
+
+@each $property, $value in $size{
+    .w-#{$property}{
+        width: $value;
+    }
+    .h-#{$property}{
+        height: $value;
+    }
+}
+
+// width - height
+@for $i from 0 to 12 {
+    @debug $i ;
+    .w-#{$i}{
+        width:$base-size * $i;
+    }
+    .h-#{$i}{
+        height:$base-size * $i;
+    }
+}
+
+
+.w-screen{
+    width:100vh
+}
+
+.h-screen{
+    height:100vh
+}
