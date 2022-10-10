@@ -6,6 +6,7 @@ $spacing:(
         "prefix":"p",
         "values":(
             "0":0,
+            "auto": auto,
             "1": $base-padding,
             "2": $base-padding * 2,
             "3": $base-padding * 4,
@@ -17,6 +18,7 @@ $spacing:(
         "prefix":"py",
         "values":(
             "0":0,
+            "auto": auto,
             "1": $base-padding,
             "2": $base-padding * 2,
             "3": $base-padding * 4,
@@ -28,6 +30,7 @@ $spacing:(
         "prefix":"px",
         "values":(
             "0":0,
+            "auto": auto,
             "1": $base-padding,
             "2": $base-padding * 2,
             "3": $base-padding * 4,
@@ -39,6 +42,7 @@ $spacing:(
         "prefix":pl,
         "values":(
             "0":0,
+            "auto": auto,
             "1": $base-padding,
             "2": $base-padding * 2,
             "3": $base-padding * 4,
@@ -50,6 +54,7 @@ $spacing:(
         "prefix":pr,
         "values":(
             "0":0,
+            "auto": auto,
             "1": $base-padding,
             "2": $base-padding * 2,
             "3": $base-padding * 4,
@@ -61,6 +66,7 @@ $spacing:(
         "prefix":pt,
         "values":(
             "0":0,
+            "auto": auto,
             "1": $base-padding,
             "2": $base-padding * 2,
             "3": $base-padding * 4,
@@ -72,6 +78,7 @@ $spacing:(
         "prefix":pb,
         "values":(
             "0":0,
+            "auto": auto,
             "1": $base-padding,
             "2": $base-padding * 2,
             "3": $base-padding * 4,
@@ -83,6 +90,7 @@ $spacing:(
     "prefix": "m",
     "values": (
       "0": 0,
+      "auto": auto,
       "1": $base-margin,
       "2": $base-margin * 2,
       "3": $base-margin * 4,
@@ -94,6 +102,7 @@ $spacing:(
     "prefix": "ml",
     "values": (
       "0": 0,
+      "auto": auto,
       "1": $base-margin,
       "2": $base-margin * 2,
       "3": $base-margin * 4,
@@ -105,6 +114,7 @@ $spacing:(
     "prefix": "mr",
     "values": (
       "0": 0,
+      "auto": auto,
       "1": $base-margin,
       "2": $base-margin * 2,
       "3": $base-margin * 4,
@@ -116,6 +126,7 @@ $spacing:(
     "prefix": "mt",
     "values": (
       "0": 0,
+      "auto": auto,
       "1": $base-margin,
       "2": $base-margin * 2,
       "3": $base-margin * 4,
@@ -127,6 +138,7 @@ $spacing:(
     "prefix": "mb",
     "values": (
       "0": 0,
+      "auto": auto,
       "1": $base-margin,
       "2": $base-margin * 2,
       "3": $base-margin * 4,
@@ -138,6 +150,7 @@ $spacing:(
     "prefix": "lh",
     "values": (
       "0": 0,
+      "auto": auto,
       "1": $line-height,
       "2": $line-height * 2,
       "3": $line-height * 4,
