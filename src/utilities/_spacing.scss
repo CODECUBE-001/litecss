@@ -1,6 +1,17 @@
 @use '../core/variables' as *;
 
 @use 'sass:math';
+
+
+$grid-gaps: 7;
+/* Grid gaps */
+@for $i from 0 to $grid-gaps {
+    .gap-#{$i}{
+        gap: 0px * $i;
+    }
+}
+
+
 $spacing:(
     "padding":(
         "prefix":"p",
