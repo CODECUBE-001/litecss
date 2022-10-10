@@ -11,7 +11,7 @@ $grid-gaps:(
 );
 
 $layout-values: flex-start, flex-end, center, space-between, space-around, space-evenly;
-$align: center, flex-start, flex-end, baseline ;
+$_align: center, flex-start, flex-end, baseline ;
 
 /* Base layout classes */
 .container{
@@ -39,7 +39,7 @@ $align: center, flex-start, flex-end, baseline ;
 }
 
 /* align items classes */
-@each $val in $align{
+@each $val in $_align{
      .align-#{$val}{
          align-items: $val;
      }
