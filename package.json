@@ -4,7 +4,7 @@
   "entry": "dist/style.css",
   "version": "0.1.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "node api.js && vite",
     "build": "rm -rf ./dist && vite build --config config.vite.js",
     "preview": "vite preview"
   },
