@@ -7,7 +7,7 @@ $grid-gaps: 7;
 /* Grid gaps */
 @for $i from 0 to $grid-gaps {
     .gap-#{$i}{
-        gap: 0px * $i;
+        gap: $i * 10 + #{px};
     }
 }
 
