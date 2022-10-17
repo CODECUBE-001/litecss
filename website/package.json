@@ -3,9 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "start": "vite --host",
-    "dev": "vite",
-    "build": "tsc && vite build",
+    "start": "node api.js && vite --host",
+    "dev": "node api.js && vite",
+    "build": "node api.js && tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {

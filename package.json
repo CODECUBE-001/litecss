@@ -4,8 +4,8 @@
   "entry": "dist/style.css",
   "version": "0.1.0",
   "scripts": {
-    "dev": "vite",
-    "build": "rm -rf ./dist && vite build --config config.vite.js",
+    "dev": "node api.js && vite",
+    "build": "node api.js && rm -rf ./dist && vite build --config config.vite.js",
     "preview": "vite preview"
   },
   "devDependencies": {
