@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'chillax';
+  src: url('/src/Assets/fonts/chillax/Chillax-Extralight.otf');
+  font-weight: 100
+}
+
+@font-face {
+  font-family: 'chillax';
+  src: url('/src/Assets/fonts/chillax/Chillax-Light.otf');
+  font-weight: 200
+}
+
+@font-face {
+  font-family: 'chillax';
+  src: url('/src/Assets/fonts/chillax/Chillax-Medium.otf');
+  font-weight: 300
+}
+
+@font-face {
+  font-family: 'chillax';
+  src: url('/src/Assets/fonts/chillax/Chillax-Regular.otf');
+  font-weight: 400
+}
+
+@font-face {
+  font-family: 'chillax';
+  src: url('/src/Assets/fonts/chillax/Chillax-Semibold.otf');
+  font-weight: 500
+}
+
+@font-face {
+  font-family: 'chillax';
+  src: url('/src/Assets/fonts/chillax/Chillax-Bold.otf');
+  font-weight: 600
+}
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'chillax', "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.spin {
+  animation: spin .5s linear infinite
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg)
+  }
+
+  100% {
+    transform: rotate(360deg)
+  }
+}
