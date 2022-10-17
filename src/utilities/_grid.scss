@@ -8,7 +8,7 @@
         grid-template-columns: repeat($col, 1fr);
     }
     .col-auto-#{$col}{
-        grid-template-columns: repeat(autofit,minmax($col * 100px ,1fr));
+        grid-template-columns: repeat(auto-fit,minmax($col * 100px ,1fr));
     }
    
 
