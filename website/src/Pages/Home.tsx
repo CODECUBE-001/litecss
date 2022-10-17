@@ -3,6 +3,9 @@ import { LocomotiveScrollProvider } from "react-locomotive-scroll";
 import { Fragment, useRef } from "react";
 import scrollOptions from "../Config/scroll";
 import { Helmet } from "react-helmet";
+import Header from "../Layout/Header";
+import Hero from "../Layout/Hero";
+import Features from "../Layout/Features";
 
 const Home = () => {
   const containerRef = useRef(null);
@@ -25,7 +28,9 @@ const Home = () => {
           ref={containerRef}
           id="home"
         >
-          Home page
+          <Header />
+          <Hero />
+          <Features />
         </motion.main>
       </LocomotiveScrollProvider>
     </Fragment>
