@@ -1,6 +1,8 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'chillax', "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+      "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !important;
 }
 
 @font-face {
@@ -46,8 +48,6 @@ html {
 }
 
 body {
-  font-family: 'chillax', "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
-    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 
 .spin {
@@ -62,4 +62,89 @@ body {
   100% {
     transform: rotate(360deg)
   }
+}
+/*  */
+.list-none {
+  list-style: none;
+}
+
+/* 
+.align-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.outline-none {
+  outline: none
+} */
+
+/* .gap-1 {
+  gap: 10px
+}
+
+.gap-2 {
+  gap: 20px
+} */
+
+/* .relative {
+  position: relative
+} */
+
+.-bottom-1 {
+  bottom: -25px
+}
+
+.-left-1 {
+  left: -50px
+}
+
+.-z-1 {
+  z-index: -1
+}
+
+.top-half {
+  top: 50%;
+}
+
+.-right-1 {
+  right: -15px;
+}
+
+.bottom-0 {
+  bottom: 0
+}
+
+/* .absolute {
+  position: absolute
+} */
+
+/* component */
+.tag {
+  padding: 6px 10px;
+  border-radius: 10px;
+  background: #222;
+  max-width: 70px;
+  color: white;
+  font-size: 10px;
+}
+
+/* 
+.decoration-none {
+  text-decoration: none;
+} */
+/* fix grid */
+
+.hero .hero__intro {
+  width: 450px
+}
+
+.feat {
+  width: 300px
 }
