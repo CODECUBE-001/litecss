@@ -1,8 +1,8 @@
 @use '../core/variables' as *;
 
-$inherit-justify: center, unset, flex-start, flex-end initial inherit;
-$justify-value: space-between, space-evenly, space-around,  $inherit-justify ;
-$align-value:baseline, $inherit-justify;
+$justify-value: space-between, space-evenly, space-around, center, unset, flex-start, flex-end initial inherit;
+
+$align-value:baseline, center, unset, flex-start, flex-end initial inherit;
 
 
 @each $align in $align-value {
@@ -12,10 +12,15 @@ $align-value:baseline, $inherit-justify;
     .align-#{$align}{
         align-content: $align
     }
+
+
+}
+@each $justify in $justify-value {
     
-    .justify-#{$align}{
-        justify-content: $align
+    .justify-#{$justify}{
+        justify-content: $justify
     }
+
 
 }
 
